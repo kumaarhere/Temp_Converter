@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+
+}
+.container {
+    width:30vw;
+    border:5px solid #5b85a5;
+    border-radius: 20px;
+    box-shadow: 8px 8px 20px #7f919e
+}
+.container h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #0c0c0c;
+}
+select{
+    width:90%;
+    padding: 16px;
+    margin:5% 5%;
+    border: 3px solid #1c5c6f;
+    font-size: 1.3rem;
+   
+}
+.temperature{
+    width:83%;
+    padding: 12px;
+    margin-left: 5%;
+    margin-right: 3%;
+    border: 4px solid #ccc;
+    font-size: 1.2rem;
+    background-color: #ccc;
+    border-radius: 8px;
+}
+.temperature:focus{
+    outline-style: none;
+    border: 3px solid rgb(10, 10, 10);
+}
+button{
+   margin:5% 36%;
+   padding: 8px 32px;
+   border-radius: 8px;
+   font-size: 16px;
+   font-weight: 800;
+   background-color:rgb(59, 55, 55);
+   color: rgb(68, 198, 163);
+   box-shadow: 4px 5px 10px grey;
+}
+.result{
+    margin:20px;
+}
+.brand{
+    position: absolute;
+    bottom: 3%;
+}
+.brand span{
+    font-weight: 800;
+    font-family: cursive;
+    
+}
+.brand a{
+    color: #0c0c0c;
+    text-decoration: none;
+    background-color:#7f919e;
+    border-radius: 16px;
+    padding: 5px 8px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 4px 6px 6px #555a5d;
+}
+@media only screen and (max-width:600px){
+    .container {
+        width:80vw;
+        background:rgba(255,255,255,0.9);
+        border:4px solid #5b85a5;
+    }
+    .brand{
+        position: absolute;
+        bottom: 0;
+    }
+    .result{
+        font-size: 12px;
+    }
+    .temperature{
+        width:63vw;
+    }
+    .container h2{
+       
+    }
+    button{
+        margin-left: 25%;
+    }
+}
+
+
