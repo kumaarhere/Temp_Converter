@@ -36,7 +36,7 @@ function convertTemperature() {
   const kelvin = convertedTemperature + 273.15;
 
   results.innerHTML =
-  '<h4>Converted temperature:</h4>' + convertedTemperature.toFixed(2) + '°C' +
+  '<h4>Celsius:</h4>' + convertedTemperature.toFixed(2) + '°C' +
   '<h5>Fahrenheit:</h5>' + fahrenheit.toFixed(2) + ' °F' +
   '<h5>Kelvin: </h5>' + kelvin.toFixed(2) + ' K';
 
